@@ -29,6 +29,7 @@
             else
             {
                 Console.WriteLine("Invalid input. Please enter a valid number.");
+                return;
             }
 
             Console.WriteLine("Select transfer method:");
@@ -64,6 +65,7 @@
             else
             {
                 Console.WriteLine("Input tidak valid. Silakan masukkan angka yang valid.");
+                return;
             }
             Console.WriteLine("Pilih metode transfer:");
             for (int i = 0; i < config.methods.Count; i++)
